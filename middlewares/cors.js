@@ -1,5 +1,3 @@
-// Вместо нашего адреса вставь свой
-// Можно ещё не удалять адреса с localhost, но мы удалили для краткости
 const allowedCors = ["https://poling767.nomorepartiesco.ru/"];
 
 function cors(req, res, next) {
