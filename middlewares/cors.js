@@ -1,4 +1,9 @@
-const allowedCors = ["https://poling767.nomorepartiesco.ru/"];
+const allowedCors = [
+  'http://localhost:3000/',
+  'http://localhost:3001/',
+  'https://poling767.nomorepartiesco.ru',
+  'https://poling767-backend.nomorepartiesco.ru'
+];
 
 function cors(req, res, next) {
   const { origin } = req.headers;
