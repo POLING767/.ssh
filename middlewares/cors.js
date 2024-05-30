@@ -1,6 +1,6 @@
 const allowedCors = [
-  'http://localhost:3000/',
-  'http://localhost:3001/',
+  'http://localhost:3000',
+  'http://localhost:3001',
   'https://poling767.nomorepartiesco.ru',
   'https://poling767-backend.nomorepartiesco.ru'
 ];
